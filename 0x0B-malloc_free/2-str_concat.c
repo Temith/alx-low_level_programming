@@ -14,6 +14,9 @@ int _strlen(char *s)
 	return (size);
 }
 
+#include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
 /**
  * str_concat - concatenates two strings
  * @s1: input one to concat

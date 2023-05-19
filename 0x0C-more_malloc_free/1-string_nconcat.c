@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * *string_nconcat - print function that concat two strings
  * @s1: pointer to first string
@@ -41,7 +42,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			str[j] = s2[k];
 			k++;
 		}
-		j++
+		j++;
 	}
 	str[j] = '\0';
 	return (str);
